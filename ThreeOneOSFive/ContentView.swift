@@ -64,11 +64,11 @@ struct ContentView: View {
                 .patchStorePresentation(patchStore)
                 .repositoryStorePresentation(repositoryStore, patchStore: patchStore)
 
-            if showSplash {
-                CobaltSplashView(showSplash: $showSplash)
-                    .zIndex(100)
-                    .transition(.opacity.combined(with: .scale(scale: 1.05)).animation(.easeInOut(duration: 0.6)))
-            }
+            // if showSplash {
+            //     CobaltSplashView(showSplash: $showSplash)
+            //         .zIndex(100)
+            //         .transition(.opacity.combined(with: .scale(scale: 1.05)).animation(.easeInOut(duration: 0.6)))
+            // }
         }
     }
 
@@ -265,4 +265,3 @@ private extension AppSection {
         }
     }
 }
-
