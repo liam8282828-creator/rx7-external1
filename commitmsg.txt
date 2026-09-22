@@ -1,0 +1,1 @@
+feat: RX7 EXTERNAL splash animated welcome, theme & logo
